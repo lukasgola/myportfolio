@@ -2,20 +2,12 @@ import { people01, people02, people03, facebook, instagram, linkedin, twitter, a
 
 export const navLinks = [
   {
-    id: "features",
-    title: "Korepetycje",
+    id: "skills",
+    title: "Skills",
   },
   {
-    id: "features",
-    title: "Zostań korepetytorem",
-  },
-  {
-    id: "prices",
-    title: "Cennik",
-  },
-  {
-    id: "clients",
-    title: "Kontakt",
+    id: "portfolio",
+    title: "Portfolio",
   },
 ];
 
