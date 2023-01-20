@@ -14,8 +14,9 @@ const styles = {
     marginX: "sm:mx-16 mx-6",
     marginY: "sm:my-16 my-6",
 
-    glassContainer: "bg-white rounded-[30px] w-5/6 shadow-2xl h-[800px] bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-30"
-
+    glassContainer: "bg-white rounded-[30px] shadow-2xl bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-10",
+    backgroundGradient: "bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-indigo-50 to-violet-200",
+    buttonGradient: "bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-indigo-200 to-violet-100",
   };
   
   export const layout = {

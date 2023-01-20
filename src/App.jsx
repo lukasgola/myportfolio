@@ -1,14 +1,17 @@
 import React from 'react'
 
 import styles from './style'
-import {Navbar, Hero} from './components'
+import {Navbar, Hero, Skills} from './components'
 
 const App = () => {
   return (
-    <div className={`bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-indigo-50 to-violet-200 bg-white w-full overflow-hidden ${styles.flexCenter} `}>
-      <div className={`${styles.glassContainer} ${styles.paddingX} mt-20`}>
+    <div className={` ${styles.backgroundGradient} flex w-full overflow-hidden flex-col ${styles.flexCenter} `}>
+      <div className={`${styles.glassContainer} ${styles.paddingX} w-5/6 h-[550px] mt-20`}>
         <Navbar />
         <Hero />
+      </div>
+      <div className={`${styles.glassContainer} w-5/6 mt-[50px]`}>
+        <Skills />
       </div>
       
     </div>

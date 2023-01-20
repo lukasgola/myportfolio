@@ -1,9 +1,11 @@
 import React from 'react'
 
-const Button = ({text, styles}) => {
+import styles from '../style';
+
+const Button = ({text, style}) => {
   return (
-    <button type='button' className={`w-[200px] h-[60px] bg-blue-gradient font-poppins font-medium text-[18px] rounded-[10px] text-primary outline-none ${styles}`}>
-      <span>{text}</span>
+    <button type='button' className={`w-[200px] h-[60px] bg-text1 font-poppins font-medium text-[18px] rounded-[10px] text-text1 outline-none ${style}`}>
+      <span className='text-white'>{text}</span>
     </button>
   )
 }
