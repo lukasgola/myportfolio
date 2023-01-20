@@ -27,6 +27,7 @@ import aFrame from "./aFrame.jpg";
 import code from "./code-icon.png";
 import app from "./app-icon.png";
 import design from "./design-icon.png";
+import main from './main-image.png';
 
 export {
   airbnb,
@@ -57,5 +58,6 @@ export {
   aFrame,
   code,
   app,
-  design
+  design,
+  main
 };

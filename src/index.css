@@ -166,7 +166,7 @@
 .card{
     position: relative;
     max-width: 390px;
-    min-height: 320px;
+    min-height: 350px;
     display: flex;
     align-items: center;
     justify-content: center;
