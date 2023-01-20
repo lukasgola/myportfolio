@@ -15,7 +15,7 @@ const Navbar = () => {
 
       <div>
         <p className='font-poppins font-bold cursor-pointer text-[30px]'>
-          <span className=' text-black'>ŁG</span>
+          <span className=' text-slate'>ŁG</span>
         </p>
         
       </div>

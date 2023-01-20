@@ -13,6 +13,9 @@ const styles = {
   
     marginX: "sm:mx-16 mx-6",
     marginY: "sm:my-16 my-6",
+
+    glassContainer: "bg-white rounded-[30px] w-5/6 shadow-2xl h-[800px] bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-30"
+
   };
   
   export const layout = {
