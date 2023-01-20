@@ -25,6 +25,8 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import aFrame from "./aFrame.jpg";
 import code from "./code-icon.png";
+import app from "./app-icon.png";
+import design from "./design-icon.png";
 
 export {
   airbnb,
@@ -54,4 +56,6 @@ export {
   people03,
   aFrame,
   code,
+  app,
+  design
 };
