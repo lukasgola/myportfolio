@@ -36,3 +36,39 @@ const Skills = () => {
 }
 
 export default Skills
+
+/*
+<Swiper
+            slidesPerView={3}
+            spaceBetween={100}
+            slidesPerGroup={3}
+            loop={true}
+            loopFillGroupWithBlank={true}
+            pagination={{
+                clickable: true,
+            }}
+            navigation={true}
+            modules={[Pagination, Navigation]}
+            className="mySwiper"
+        >
+            <SwiperSlide>
+                <img src={pro1_1} alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src={pro1_2} alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src={pro1_3} alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src={pro2_1} alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src={pro2_2} alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src={pro2_3} alt="" />
+            </SwiperSlide>
+        </Swiper>
+
+        */

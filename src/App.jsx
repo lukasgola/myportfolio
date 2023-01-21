@@ -1,7 +1,7 @@
 import React from 'react'
 
 import styles from './style'
-import {Navbar, Hero, Skills} from './components'
+import {Navbar, Hero, Skills, Portfolio} from './components'
 
 const App = () => {
   return (
@@ -14,9 +14,8 @@ const App = () => {
         <Skills />
       </div>
       <div className={`${styles.glassContainer} w-2/3 mt-[50px]`}>
-        <Skills />
+        <Portfolio />
       </div>
-      
     </div>
     
   )
