@@ -33,19 +33,14 @@ const SingleCard = ({title, img}) => {
 
 const Portfolio = () => {
   return (
-    <div>
-        <div className="container pt-20 ">
+    <div id="portfolio">
+        <div className="container mt-[50px]">
             <div className="w-full mb-10">
                 <h1 className="text-center text-[40px] font-poppins font-bold text-text1">Portfolio</h1>
             </div>
             <div className="projects">
                 <SingleCard title='Pizza App' img={pro1_1} />
                 <SingleCard title='Bamber Baits' img={pro2_1} />
-                <SingleCard />
-                <SingleCard />
-                <SingleCard />
-                <SingleCard />
-                <SingleCard />
                 <SingleCard />
                 <SingleCard />
             </div>

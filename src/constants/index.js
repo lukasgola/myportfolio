@@ -2,10 +2,6 @@ import { code, app, design  } from "../assets";
 
 export const navLinks = [
   {
-    id: "skills",
-    title: "Skills",
-  },
-  {
     id: "portfolio",
     title: "Portfolio",
   },

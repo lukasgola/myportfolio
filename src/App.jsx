@@ -6,11 +6,11 @@ import {Navbar, Hero, Skills, Portfolio} from './components'
 const App = () => {
   return (
     <div className={` background-gradient2 flex w-full overflow-hidden flex-col ${styles.flexCenter} `}>
-      <div className={`${styles.glassContainer} ${styles.paddingX} w-2/3 min-h-[600px] mt-20 mb-20`}>
+      <div className={`${styles.glassContainer} ${styles.paddingX} w-2/3 min-h-[800px] mt-[80px]`}>
         <Navbar />
         <Hero />
       </div>
-      <div className={`${styles.glassContainer} w-2/3 mt-20`}>
+      <div className={`${styles.glassContainer} pb-[50px] w-2/3 my-[80px]`}>
         <Portfolio />
       </div>
     </div>
