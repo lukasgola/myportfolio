@@ -2,11 +2,13 @@ import React from 'react'
 
 import { skills } from '../constants'
 
+import styles from '../style'
+
 
 const FeatureCard = ({ icon, title, content, index }) =>{
     return(
     <div className="card-wrap w-5/6 sm:w-1/3">
-        <div className="card rounded-xl" data-card="UI/UX">
+        <div className={`${styles.glassContainer2} card rounded-xl`}>
             <div className="">
                 <img src={icon} className="w-[90px] mb-10 mx-auto" alt="" />
                 <h3 className="font-poppins font-semibold text-text1 mb-5">{title}</h3>

@@ -4,11 +4,13 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import { pro1_1, pro1_2, pro1_3, pro1_4, pro2_1, pro2_2, pro2_3 } from '../assets';
 
+
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
+import styles from '../style';
 
 // import required modules
 import { Pagination, Navigation } from "swiper";
@@ -16,7 +18,7 @@ import { Pagination, Navigation } from "swiper";
 
 const SingleCard = ({title, img}) => {
     return(
-        <div className='w-[250px] h-[150px] rounded-xl bg-white shadow-xl flex flex-row relative grid-item'>
+        <div className={`${styles.glassContainer2} w-[250px] h-[150px] rounded-xl flex flex-row relative grid-item`}>
             <div className='h-full w-2/3 text-center'>
                 <p className='font-poppins text-text1 font-semibold mt-[60px]'>
                     {title}  
