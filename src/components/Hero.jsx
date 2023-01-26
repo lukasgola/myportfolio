@@ -3,7 +3,7 @@ import React from 'react'
 import styles from '../style';
 import Button from './Button';
 
-import { main, desk } from '../assets';
+import { desk } from '../assets';
 
 const Hero = () => {
   return (

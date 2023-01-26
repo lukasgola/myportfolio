@@ -1,21 +1,11 @@
 import React from 'react'
 
-import { Swiper, SwiperSlide } from "swiper/react";
-
 import { pro1_1, pro1_2, pro1_3, pro1_4, pro2_1, pro2_2, pro2_3 } from '../assets';
 
 import Filter from './Filter';
 
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-
 import styles from '../style';
 
-// import required modules
-import { Pagination, Navigation } from "swiper";
 
 
 const SingleCard = ({title, img}) => {
