@@ -16,6 +16,7 @@ const styles = {
 
     glassContainer: "bg-white rounded-[30px] shadow-2xl bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-30",
     glassContainer2: "bg-white rounded-[30px] shadow-lg bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-10",
+    glassButton: "bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-10",
     backgroundGradient: "bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-indigo-50 to-violet-200",
     buttonGradient: "bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-indigo-200 to-violet-100",
   };

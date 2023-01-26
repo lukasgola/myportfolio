@@ -28,6 +28,7 @@ import code from "./code-icon.png";
 import app from "./app-icon.png";
 import design from "./design-icon.png";
 import main from './main_svg.svg';
+import desk from './desk.svg';
 import pro1_1 from './pro1_1.png';
 import pro1_2 from './pro1_2.png';
 import pro1_3 from './pro1_3.png';
@@ -67,6 +68,7 @@ export {
   app,
   design,
   main,
+  desk,
   pro1_1,
   pro1_2,
   pro1_3,

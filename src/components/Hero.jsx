@@ -3,7 +3,7 @@ import React from 'react'
 import styles from '../style';
 import Button from './Button';
 
-import { main } from '../assets';
+import { main, desk } from '../assets';
 
 const Hero = () => {
   return (
@@ -23,7 +23,7 @@ const Hero = () => {
             <Button style='mt-10 uppercase' text='Portfolio' />
           </div>
           <div>
-            <img src={main} alt="" />
+            <img src={desk} alt="" className='h-[450px]' />
           </div>
         </div>
       </div>
