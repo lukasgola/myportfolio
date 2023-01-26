@@ -27,7 +27,7 @@ import aFrame from "./aFrame.jpg";
 import code from "./code-icon.png";
 import app from "./app-icon.png";
 import design from "./design-icon.png";
-import main from './main-image.png';
+import main from './main_svg.svg';
 import pro1_1 from './pro1_1.png';
 import pro1_2 from './pro1_2.png';
 import pro1_3 from './pro1_3.png';
@@ -73,5 +73,5 @@ export {
   pro1_4,
   pro2_1,
   pro2_2,
-  pro2_3
+  pro2_3,
 };
