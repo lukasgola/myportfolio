@@ -40,34 +40,16 @@
   justify-items: center;
 }
 
-.grid-item{
-  cursor: pointer;
-  transform-origin: center;
-  transition: 0.5s;
-}
-
-.grid-item:hover {
-  transform: scale(1.1);
-}
 
 .filter-container button {
   height: 40px;
-  margin-top: 5px;
   padding-left: 20px;
   padding-right: 20px;
   border-radius: 10px;
   margin-left: 10px;
   margin-right: 10px;
-  background-color: 'white';
 }
 
-button:active{
-  background-color: '#818CF8';
+button.active{
   color: white;
 }
-
-button:focus{
-  background-color: '#818CF8';
-  color: white;
-}
-
