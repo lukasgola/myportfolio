@@ -31,8 +31,8 @@ const Portfolio = () => {
     const [activeBtn, setActiveBtn] = useState('all');
 
   return (
-    <div id="portfolio">
-        <div className="container mt-[50px]">
+    <div layout id="portfolio">
+        <div layout className="container mt-[50px]">
             <div className="w-full">
                 <h1 className="text-center text-[40px] font-poppins font-bold text-text1">Portfolio</h1>
             </div>
