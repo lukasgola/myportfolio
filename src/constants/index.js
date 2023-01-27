@@ -1,4 +1,4 @@
-import { code, app, design, pro1_1, pro2_1, linkedin, github, calculus  } from "../assets";
+import { code, app, design, pro1_1, pro2_1, linkedin, github, calculus, portfolio_old  } from "../assets";
 
 export const navLinks = [
   {
@@ -67,18 +67,28 @@ export const projects = [
     id: 1,
     title: 'Bamber Baits',
     img: pro1_1,
-    type: 'apps'
+    type: 'apps',
+    link: 'https://github.com/lukasgola/bamber-baits'
   },
   {
     id: 2,
     title: 'Pizza App',
     img: pro2_1,
-    type: 'apps'
+    type: 'apps',
+    link: 'https://github.com/lukasgola/pizza-app'
   },
   {
     id: 3,
     title: 'Calculus',
     img: calculus,
-    type: 'web'
+    type: 'web',
+    link: 'https://github.com/lukasgola/calculus-website'
+  },
+  {
+    id: 4,
+    title: 'Portfolio',
+    img: portfolio_old,
+    type: 'web',
+    link: 'https://github.com/lukasgola/iamlukasz'
   }
 ]

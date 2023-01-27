@@ -58,7 +58,11 @@ const Portfolio = () => {
                 className="projects mt-[20px]"
             >
                 {filtered.map((pro, index) => (
-                    pro.type === 'apps' ? <SingleApp title={pro.title} img={pro.img} /> : <SingleWeb title={pro.title} img={pro.img} />
+                    
+                    pro.type === 'apps' ? 
+                    <a href={pro.link} target='_blank'><SingleApp title={pro.title} img={pro.img} /></a> 
+                    : <a href={pro.link} target='_blank'><SingleWeb title={pro.title} img={pro.img} />
+                    </a>
                 ))}
             </motion.div>
         </div>

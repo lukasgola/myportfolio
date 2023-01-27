@@ -18,6 +18,7 @@ import pro2_2 from './pro2_2.png';
 import pro2_3 from './pro2_3.png';
 
 import calculus from './calculus.png';
+import portfolio_old from './portfolio_old.png'
 
 export {
   menu,
@@ -36,5 +37,6 @@ export {
   pro2_1,
   pro2_2,
   pro2_3,
-  calculus
+  calculus,
+  portfolio_old
 };
