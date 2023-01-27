@@ -1,4 +1,4 @@
-import { code, app, design, pro1_1, pro2_1  } from "../assets";
+import { code, app, design, pro1_1, pro2_1, linkedin, github  } from "../assets";
 
 export const navLinks = [
   {
@@ -6,6 +6,19 @@ export const navLinks = [
     title: "Portfolio",
   },
 ];
+
+export const links = [
+  {
+    id: "linkedin",
+    icon: linkedin,
+    link: 'https://www.linkedin.com/in/lukasz-gola/'
+  },
+  {
+    id: 'github',
+    icon: github,
+    link: 'https://github.com/lukasgola'
+  }
+]
 
 export const skills = [
   {

@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 import { close, menu } from '../assets';
 
-import { navLinks } from '../constants';
+import { navLinks, links } from '../constants';
 
 const Navbar = () => {
   
@@ -21,14 +21,24 @@ const Navbar = () => {
       </div>
   
 
-      <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
+      <ul className='list-none sm:flex hidden justify-end items-start flex-1  '>
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] text-text1 uppercase ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'}`}
+            className={`font-poppins font-normal cursor-pointer text-[16px] text-text1 uppercase mr-10`}
           >
             <a href={`#${nav.id}`}>
               {nav.title}
+            </a>
+          </li>
+        ))}
+        {links.map((nav, index) => (
+          <li
+            key={nav.id}
+            className={`font-poppins font-normal cursor-pointer text-[16px] text-text1 uppercase ${index === links.length - 1 ? 'mr-0' : 'mr-10'}`}
+          >
+            <a href={nav.link} target='_blank' >
+              <img src={nav.icon} className='w-[20px]' alt="" />
             </a>
           </li>
         ))}

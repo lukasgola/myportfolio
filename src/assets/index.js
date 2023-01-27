@@ -2,6 +2,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import linkedin from "./linkedin.svg";
+import github from "./github.svg";
 
 import code from "./code-icon.png";
 import app from "./app-icon.png";
@@ -20,6 +21,7 @@ export {
   menu,
   close,
   linkedin,
+  github,
   code,
   app,
   design,
