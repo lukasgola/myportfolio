@@ -10,7 +10,7 @@ import { motion } from 'framer-motion';
 
 
 
-const SingleCard = ({title, img}) => {
+const SingleApp = ({title, img}) => {
     return(
         <motion.div layout whileHover={{ scale: 1.1 }} className={`${styles.glassContainer2} w-[250px] h-[150px] rounded-xl flex flex-row relative`}>
             <div className='h-full w-2/3 text-center'>
@@ -20,6 +20,14 @@ const SingleCard = ({title, img}) => {
             </div>
             
             <img src={img} alt="" className='object-cover h-[120px] absolute right-[15px] top-[15px]' />
+        </motion.div>
+    )
+}
+
+const SingleWeb = ({title, img}) => {
+    return(
+        <motion.div layout whileHover={{ scale: 1.1 }} className={`${styles.glassContainer2} w-[250px] h-[150px] rounded-xl flex flex-row relative`}>
+            <img src={img} alt="" className='object-fill rounded-xl h-full' />
         </motion.div>
     )
 }
@@ -50,7 +58,7 @@ const Portfolio = () => {
                 className="projects mt-[20px]"
             >
                 {filtered.map((pro, index) => (
-                    <SingleCard title={pro.title} img={pro.img} />
+                    pro.type === 'apps' ? <SingleApp title={pro.title} img={pro.img} /> : <SingleWeb title={pro.title} img={pro.img} />
                 ))}
             </motion.div>
         </div>

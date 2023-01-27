@@ -1,4 +1,4 @@
-import { code, app, design, pro1_1, pro2_1, linkedin, github  } from "../assets";
+import { code, app, design, pro1_1, pro2_1, linkedin, github, calculus  } from "../assets";
 
 export const navLinks = [
   {
@@ -76,27 +76,9 @@ export const projects = [
     type: 'apps'
   },
   {
-    id: 1,
-    title: 'Bamber Baits',
-    img: pro1_1,
+    id: 3,
+    title: 'Calculus',
+    img: calculus,
     type: 'web'
-  },
-  {
-    id: 2,
-    title: 'Pizza App',
-    img: pro2_1,
-    type: 'web'
-  },
-  {
-    id: 1,
-    title: 'Bamber Baits',
-    img: pro1_1,
-    type: 'apps'
-  },
-  {
-    id: 2,
-    title: 'Pizza App',
-    img: pro2_1,
-    type: 'apps'
   }
 ]

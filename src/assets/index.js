@@ -17,6 +17,8 @@ import pro2_1 from './pro2_1.png';
 import pro2_2 from './pro2_2.png';
 import pro2_3 from './pro2_3.png';
 
+import calculus from './calculus.png';
+
 export {
   menu,
   close,
@@ -34,4 +36,5 @@ export {
   pro2_1,
   pro2_2,
   pro2_3,
+  calculus
 };
