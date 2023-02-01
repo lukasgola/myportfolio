@@ -1,4 +1,4 @@
-import { code, app, design, pro1_1, pro2_1, linkedin, github, calculus, portfolio_old  } from "../assets";
+import { code, app, design, pro1_1, pro2_1, pro1, linkedin, github, calculus, portfolio_old  } from "../assets";
 
 export const navLinks = [
   {
@@ -90,5 +90,12 @@ export const projects = [
     img: portfolio_old,
     type: 'web',
     link: 'https://github.com/lukasgola/iamlukasz'
-  }
+  },
+  {
+    id: 5,
+    title: 'Meeting App',
+    img: pro1,
+    type: 'apps',
+    link: 'https://github.com/lukasgola/meeting-app'
+  },
 ]

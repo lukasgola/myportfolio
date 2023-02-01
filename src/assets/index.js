@@ -17,6 +17,11 @@ import pro2_1 from './pro2_1.png';
 import pro2_2 from './pro2_2.png';
 import pro2_3 from './pro2_3.png';
 
+import pro1 from './pro1.png';
+import pro2 from './pro2.png';
+import pro3 from './pro3.png';
+import pro4 from './pro4.png';
+
 import calculus from './calculus.png';
 import portfolio_old from './portfolio_old.png'
 
@@ -37,6 +42,10 @@ export {
   pro2_1,
   pro2_2,
   pro2_3,
+  pro1,
+  pro2,
+  pro3,
+  pro4,
   calculus,
   portfolio_old
 };
