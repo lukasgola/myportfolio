@@ -1,6 +1,6 @@
 # My Portfolio
 
-It's my new personal portfolio website to show my projects and skills.
+### It's my new personal portfolio website to show my projects and skills.
 
 
 - React JS
@@ -9,4 +9,4 @@ It's my new personal portfolio website to show my projects and skills.
 
 ## Preview
 
-![alt text](https://github.com/lukasgola/myportfolio/blob/main/src/assets/calculus.png?raw=true)
+![alt text](https://github.com/lukasgola/myportfolio/blob/main/src/assets/portfolio.png?raw=true)
