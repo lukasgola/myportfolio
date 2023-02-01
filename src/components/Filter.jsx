@@ -22,7 +22,7 @@ const Filter = ({projects, setFiltered, activeBtn, setActiveBtn}) => {
     <div className='filter-container w-full flex justify-center'>
       {category.map((cat, index) => (
           <button  
-            className={` ${styles.glassButton} font-poppins font-semibold text-text1 ${activeBtn === cat.type ? "active bg-main bg-opacity-100" : "bg-white"} `}
+            className={` ${styles.glassButton} font-poppins font-semibold text-text1 ${activeBtn === cat.type ? "active bg-main bg-opacity-100" : "bg-white"} xxs:px-[5px] xxs:mx-[5px] sm:ms-[10px] sm:px-[10px] `}
             onClick={() => setActiveBtn(cat.type)}
           >
             {cat.title}
