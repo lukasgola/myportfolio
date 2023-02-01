@@ -5,7 +5,7 @@ import styles from '../style';
 const Button = ({text, style}) => {
   return (
     <a href="#portfolio">
-      <button type='button' className={`${style} w-[200px] h-[60px] bg-main font-poppins font-medium text-[18px] rounded-[10px] text-text1 outline-none ${styles.marginY}`}>
+      <button type='button' className={`${style} xxs:mx-auto w-[200px] h-[60px] bg-main font-poppins font-medium text-[18px] rounded-[10px] text-text1 outline-none ${styles.marginY}`}>
         <span className='text-white'>{text}</span>
       </button>
     </a>
