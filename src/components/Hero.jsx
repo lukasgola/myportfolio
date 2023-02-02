@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <section id='home' className={`flex md:flex-row flex-col h-[600px] mt-[50px]`}>
 
-      <div className={`flex-1 ${styles.flexCenter} flex-col xs:px-0 sm:px-[20px] xxs:px-[2px`}>
+      <div className={`flex-1 ${styles.flexCenter} ${styles.paddingX} flex-col `}>
         <div className="flex flex-row items-center w-full xxs:justify-center ss:justify-around sm:px-[50px] ">
           <div className='flex flex-col md:mr-4 mr-0 xxs:w-2/3 ss:w-1/3'>
             <h1 className="flex-1 font-poppins font-semibold sm:text-[72px] text-[52px] text-text1 sm:leading-[72px] leading-[52px]">Łukasz

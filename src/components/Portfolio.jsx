@@ -40,7 +40,7 @@ const Portfolio = () => {
 
   return (
     <div layout id="portfolio">
-        <div layout className="container mt-[50px]">
+        <div layout className="mt-[50px]">
             <div className="w-full">
                 <h1 className="text-center text-[40px] font-poppins font-bold text-text1">Portfolio</h1>
             </div>
