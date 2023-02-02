@@ -16,13 +16,13 @@ const Hero = () => {
             <span className="text-text1 ">Gola</span>
             </h1>
             <br className="xs:block hidden" /> {" "}
-            <p className='font-poppins xs:mt-[20xp] text-slate-500 w-2/3'>
+            <p className='font-poppins xs:mt-[20xp] text-slate-500 xs:w-1/2  w-2/3'>
               <span>Hello, I'm Łukasz Gola, student of the POLSL interested in Mobile App Development.</span>
             </p>
-            <Button style='xs:mt-[20px] uppercase' text='Portfolio' />
+            <Button style='xs:mt-[30px] uppercase' text='Portfolio' />
           </div>
-          <div className='sm:pr-[50px]'>
-            <img src={desk} alt="" className='xs:h-0 sm:h-[300px] ' />
+          <div className='ms:pr-[50px] sm:pr-[80px]'>
+            <img src={desk} alt="" className='xs:h-0 ms:h-[250px] sm:h-[300px] ' />
           </div>
         </div>
       </div>
