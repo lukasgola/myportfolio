@@ -27,7 +27,7 @@ const SingleApp = ({title, img}) => {
 const SingleWeb = ({title, img}) => {
     return(
         <motion.div layout whileHover={{ scale: 1.1 }} className={`${styles.glassContainer2} w-[250px] h-[150px] rounded-xl flex flex-row relative`}>
-            <img src={img} alt="" className='object-fill rounded-xl h-full' />
+            <img src={img} alt="" className='rounded-xl object-scale-down h-full' />
         </motion.div>
     )
 }
