@@ -66,14 +66,14 @@ export const projects = [
   {
     id: 1,
     title: 'Bamber Baits',
-    img: pro1_1,
+    img: pro2_1,
     type: 'apps',
     link: 'https://github.com/lukasgola/bamber-baits'
   },
   {
     id: 2,
     title: 'Pizza App',
-    img: pro2_1,
+    img: pro1_1,
     type: 'apps',
     link: 'https://github.com/lukasgola/pizza-app'
   },
